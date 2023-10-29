@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a0cf4803.css",
+    "main.js": "/portfolio/static/js/main.d72fb9bb.js",
+    "static/media/me.jpg": "/portfolio/static/media/me.5df23b4f983598227e99.jpg",
+    "static/media/Waldo.png": "/portfolio/static/media/Waldo.330a891b16565d131a99.png",
+    "static/media/AllFields.png": "/portfolio/static/media/AllFields.047ad684ba8cf14b4abc.png",
+    "static/media/Snowboard.png": "/portfolio/static/media/Snowboard.5dfc1ed9e04283cfb9b7.png",
+    "index.html": "/portfolio/index.html",
+    "static/media/linkedin-logo.svg": "/portfolio/static/media/linkedin-logo.b043fc4581452f96d7c43569d939cc6a.svg",
+    "main.a0cf4803.css.map": "/portfolio/static/css/main.a0cf4803.css.map",
+    "main.d72fb9bb.js.map": "/portfolio/static/js/main.d72fb9bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0cf4803.css",
+    "static/js/main.d72fb9bb.js"
+  ]
+}
