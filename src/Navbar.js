@@ -6,6 +6,7 @@ const Nav = styled.nav`
   justify-content: center;
   width: 100%;
   padding: 20px 0;
+  font-weight: bold;
 `
 
 const Wrapper = styled.div`

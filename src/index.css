@@ -16,5 +16,7 @@ body {
 :root {
 	--background-color: #151515;
 	--accent-color: #39ace7;
+  --light-color: #DAFFFB;
+  --gray-color: #D9D9D9;
 	--max-width: 1200px;
 }
