@@ -32,7 +32,6 @@ const Text = styled.div`
 
 const Subtext = styled.div`
   font-size: 1.3rem;
-  color: var(--gray-color);
 `
 
 const Hero = () => {
@@ -41,7 +40,7 @@ const Hero = () => {
       <Image src={meImg}></Image>
       <TextWrapper>
         <Text>I'm David, your friendly neighborhood front-end dev</Text>
-        <Subtext>Get to know me below!</Subtext>
+        <Subtext>Get to know me and my work below!</Subtext>
       </TextWrapper>
 		</Container>
 	);

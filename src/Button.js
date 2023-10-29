@@ -14,7 +14,7 @@ const colorStyles = {
 
 const StyledButton = styled.button`
 	padding: 10px;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	border-radius: 5px;
 	border: 1px solid var(--accent-color);
 	font-weight: bold;

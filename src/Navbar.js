@@ -5,7 +5,7 @@ const Nav = styled.nav`
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 20px 0;
+  padding: 10px 0;
   font-weight: bold;
 `
 
