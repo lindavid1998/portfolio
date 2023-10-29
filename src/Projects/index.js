@@ -19,7 +19,7 @@ const H1 = styled.h1`
 
 const Projects = () => {
 	return (
-		<Container>
+		<Container id='projects'>
 			<H1>Projects</H1>
 			<Project
 				name='AllFields'

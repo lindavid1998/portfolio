@@ -26,7 +26,7 @@ const Menu = styled.div`
   gap: 25px;
 `
 
-const Item = styled.div`
+const Item = styled.a`
   font-size: 1.2rem;
   cursor: pointer;
 	transition: transform 0.3s ease-in-out;
@@ -41,7 +41,7 @@ const Navbar = () => {
 			<Wrapper>
 				<Name>David Lin</Name>
 				<Menu>
-					<Item>Projects</Item>
+					<Item href='#projects'>Projects</Item>
 					<Item>About Me</Item>
 					<Item>Contact</Item>
 				</Menu>
