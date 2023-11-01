@@ -1,6 +1,5 @@
 const timelineEvents = [
 	{
-		id: 0,
 		title: 'Growing up',
 		location: 'Bay Area, CA',
 		description:
@@ -9,7 +8,6 @@ const timelineEvents = [
 		icon: 'child',
 	},
 	{
-		id: 1,
 		title: 'Getting educated',
 		location: 'San Diego, CA',
 		description:
@@ -18,8 +16,6 @@ const timelineEvents = [
 		icon: 'school',
 	},
 	{
-		id: 2,
-
 		title: `Grad school`,
 		location: 'San Diego, CA',
 		description:
@@ -28,7 +24,6 @@ const timelineEvents = [
 		icon: 'school',
 	},
 	{
-		id: 3,
 		title: `Audited Harvard's CS50`,
 		location: 'San Diego, CA',
 		description:
@@ -37,7 +32,6 @@ const timelineEvents = [
 		icon: 'code',
 	},
 	{
-		id: 4,
 		title: `Full time adulting`,
 		location: 'San Diego, CA',
 		description:
@@ -46,7 +40,6 @@ const timelineEvents = [
 		icon: 'work',
 	},
 	{
-		id: 5,
 		title: `Learning web development`,
 		location: 'San Diego, CA',
 		description:
@@ -55,7 +48,6 @@ const timelineEvents = [
 		icon: 'code',
 	},
 	{
-		id: 6,
 		title: `Working on my own project from scratch`,
 		location: 'San Diego, CA',
 		description:
@@ -64,7 +56,6 @@ const timelineEvents = [
 		icon: 'code',
 	},
 	{
-		id: 7,
 		title: `Grad school again, but for computer science`,
 		location: 'Remote',
 		description:

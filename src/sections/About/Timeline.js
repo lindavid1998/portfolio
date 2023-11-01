@@ -18,10 +18,10 @@ const H3 = styled.h3`
 const Timeline = () => {
 	return (
 		<VerticalTimeline>
-			{timelineEvents.map((event) => {
+			{timelineEvents.map((event, index) => {
 				return (
 					<VerticalTimelineElement
-						key={event.key}
+						key={index}
 						date={event.date}
 						icon={
 							event.icon === 'code' ? (
@@ -39,16 +39,29 @@ const Timeline = () => {
 								? { background: '#00ffcc' }
 								: { background: 'var(--accent-color)' }
 						}
-						contentStyle={{
-							background: 'transparent',
-							border: '1px solid var(--accent-color)',
-							color: '#fff',
-						}}
-						contentArrowStyle={{
-							borderRight: '7px solid  var(--accent-color)',
-						}}
+						contentStyle={
+							event.icon === 'code'
+								? {
+										background: 'transparent',
+										border: '1px solid #00ffcc',
+										color: '#fff',
+								  }
+								: {
+										background: 'transparent',
+										border: '1px solid var(--accent-color)',
+										color: '#fff',
+								  }
+						}
+						contentArrowStyle={
+							event.icon === 'code'
+								? {
+										borderRight: '7px solid #00ffcc',
+								  }
+								: {
+										borderRight: '7px solid var(--accent-color)',
+								  }
+						}
 					>
-						{/* <h3 className='vertical-timeline-element-title'>{event.title}</h3> */}
 						<H3 className='vertical-timeline-element-title' icon={event.icon}>
 							{event.title}
 						</H3>
