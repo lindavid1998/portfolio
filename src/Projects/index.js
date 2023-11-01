@@ -4,6 +4,7 @@ import Project from './Project';
 import AllFieldsImg from './AllFields.png';
 import WaldoImg from './Waldo.png';
 import SnowboardImg from './Snowboard.png';
+import Cards from './Cards';
 
 const Container = styled.div`
 	display: flex;
@@ -55,6 +56,7 @@ const Projects = () => {
 				demo='https://lindavid1998.github.io/snowboard-shop/'
 				github='https://github.com/lindavid1998/snowboard-shop'
 			/>
+			<Cards />
 		</Container>
 	);
 };

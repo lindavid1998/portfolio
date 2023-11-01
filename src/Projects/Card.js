@@ -1,31 +1,18 @@
-import React from 'react';
-import styled from 'styled-components';
-import Button from '../Button';
-import Stack from './Stack';
+import React from 'react'
+import Stack from './Stack'
+import Button from '../Button'
+import styled from 'styled-components'
 
 const Container = styled.div`
-	display: flex;
-	height: fit-content;
-	width: 80%;
-	gap: 40px;
-	justify-content: space-between;
-`;
-
-const Image = styled.div`
-	background-image: url(${(prop) => prop.image});
-	width: 60%;
-	height: 370px;
-	max-width: 470px;
-	background-size: cover;
-	border-radius: 5px;
-	background-position: 70% 70%;
+	padding: 20px;
+	flex: 1;
 `;
 
 const Info = styled.div`
 	display: flex;
 	flex-direction: column;
 	gap: 25px;
-	width: 50%;
+  height: 100%;
 `;
 
 const Name = styled.div`
@@ -45,10 +32,9 @@ const Buttons = styled.div`
 	margin-top: auto;
 `;
 
-const Project = ({ name, image, description, stack, demo, github }) => {
-	return (
+const Card = ({ name, description, stack, demo, github }) => {
+  return (
 		<Container>
-			<Image image={image}></Image>
 			<Info>
 				<Name>{name}</Name>
 				<Description>{description}</Description>
@@ -64,6 +50,6 @@ const Project = ({ name, image, description, stack, demo, github }) => {
 			</Info>
 		</Container>
 	);
-};
+}
 
-export default Project;
+export default Card
