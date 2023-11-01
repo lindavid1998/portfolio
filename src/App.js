@@ -4,6 +4,7 @@ import Hero from './Hero';
 import styled from 'styled-components';
 import Projects from './Projects';
 import Footer from './Footer';
+import About from './About';
 
 const Container = styled.div`
   display: flex;
@@ -19,6 +20,7 @@ const App = () => {
 			<Navbar />
 			<Hero />
       <Projects />
+      <About />
       <Footer />
 		</Container>
 	);

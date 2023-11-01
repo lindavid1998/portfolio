@@ -42,7 +42,7 @@ const Navbar = () => {
 				<Name>David Lin</Name>
 				<Menu>
 					<Item href='#projects'>Projects</Item>
-					<Item>About Me</Item>
+					<Item href='#about'>About Me</Item>
 					<Item>Contact</Item>
 				</Menu>
 			</Wrapper>
