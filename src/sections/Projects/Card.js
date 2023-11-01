@@ -1,7 +1,7 @@
-import React from 'react'
-import Stack from './Stack'
-import Button from '../Button'
-import styled from 'styled-components'
+import React from 'react';
+import Stack from './Stack';
+import Button from '../../components/Button';
+import styled from 'styled-components';
 
 const Container = styled.div`
 	padding: 20px;
@@ -12,7 +12,7 @@ const Info = styled.div`
 	display: flex;
 	flex-direction: column;
 	gap: 25px;
-  height: 100%;
+	height: 100%;
 `;
 
 const Name = styled.div`
@@ -33,7 +33,7 @@ const Buttons = styled.div`
 `;
 
 const Card = ({ name, description, stack, demo, github }) => {
-  return (
+	return (
 		<Container>
 			<Info>
 				<Name>{name}</Name>
@@ -50,6 +50,6 @@ const Card = ({ name, description, stack, demo, github }) => {
 			</Info>
 		</Container>
 	);
-}
+};
 
-export default Card
+export default Card;

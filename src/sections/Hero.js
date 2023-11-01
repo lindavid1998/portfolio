@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import meImg from './me.jpg';
+import meImg from '../assets/me.jpg';
 import Typed from 'typed.js';
 
 const Container = styled.div`

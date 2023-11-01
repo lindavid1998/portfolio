@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Hero from './Hero';
+import Navbar from './components/Navbar'
+import Hero from './sections/Hero';
 import styled from 'styled-components';
-import Projects from './Projects';
-import Footer from './Footer';
-import About from './About';
+import Projects from './sections/Projects';
+import Footer from './components/Footer';
+import About from './sections/About';
 
 const Container = styled.div`
   display: flex;

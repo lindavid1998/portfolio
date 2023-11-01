@@ -6,7 +6,7 @@ const timelineEvents = [
 		description:
 			'Born in Taiwan, but raised in the suburbs of Fremont! Played lots of video games in my free time and would create mods for games like Halo and Minecraft. Also made YouTube backgrounds for fun.',
 		date: '1998 - 2016',
-		icon: 'school',
+		icon: 'child',
 	},
 	{
 		id: 1,
@@ -47,12 +47,12 @@ const timelineEvents = [
 	},
 	{
 		id: 5,
-		title: `Taking coding seriously`,
+		title: `Learning web development`,
 		location: 'San Diego, CA',
 		description:
 			'Started self studying the Odin Project, a full stack web development curriculum. Realized it was hard to study after work, so made it a daily habit to code and study in the mornings before work!',
 		date: 'August 2022',
-		icon: 'school',
+		icon: 'code',
 	},
 	{
 		id: 6,
@@ -61,7 +61,7 @@ const timelineEvents = [
 		description:
 			'Finished the front end portion of the Odin Project. I wanted to take everything I learned and put it together in a passion project, away from tutorials. Just me and my imagination defining the requirements. I took my two passions, hiking and soccer, together to make AllFields, a CRUD application that is based off the popular app AllTrails.',
 		date: 'August 2023',
-		icon: 'school',
+		icon: 'code',
 	},
 	{
 		id: 7,
@@ -70,7 +70,7 @@ const timelineEvents = [
 		description:
 			'Will be starting the OMSCS program, with a specialization in machine learning. Very excited to see where this takes me!',
 		date: 'January 2024',
-		icon: 'work',
+		icon: 'code',
 	},
 ];
 
