@@ -26,13 +26,15 @@ const Img = styled.div`
 
 const Caption = styled.div`
 	position: absolute;
-  bottom: 0%;
-  width: 100%;
-  padding: 8px;
-	font-size: 1.2rem;
+	bottom: 0%;
+	width: 320px;
+	padding: 8px;
+	font-size: 1.1rem;
+	transition-delay: 2s; 
 	transition: opacity 0.2s ease;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.8);
 	opacity: 0;
+  overflow: hidden;
 `;
 
 const Dock = styled.div`

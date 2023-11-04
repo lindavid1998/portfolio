@@ -57,7 +57,7 @@ const Navbar = () => {
 						<Icon fill='white'></Icon>
 					</Item>
 					<Item href='#hobbies'>Hobbies</Item>
-					<Item>Contact</Item>
+					<Item href='#contact'>Contact</Item>
 				</Menu>
 			</Wrapper>
 		</Nav>

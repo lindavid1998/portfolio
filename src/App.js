@@ -3,9 +3,9 @@ import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import styled from 'styled-components';
 import Projects from './sections/Projects';
-import Footer from './components/Footer';
 import About from './sections/About';
 import Hobbies from './sections/Hobbies';
+import Contact from './sections/Contact';
 
 const Container = styled.div`
 	display: flex;
@@ -23,7 +23,7 @@ const App = () => {
 			<Projects />
 			<About />
 			<Hobbies />
-			<Footer />
+			<Contact />
 		</Container>
 	);
 };
