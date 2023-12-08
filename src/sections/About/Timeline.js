@@ -11,9 +11,13 @@ import { ReactComponent as SchoolIcon } from './graduation-cap-solid.svg';
 import { ReactComponent as ChildIcon } from './child-solid.svg';
 import styled from 'styled-components';
 
-const H3 = styled.h3`
+const H4 = styled.h4`
 	color: ${(props) => (props.icon === 'code' ? '#00ffcc' : 'white')};
 `;
+
+const P = styled.p`
+	color: white;
+`
 
 const Timeline = () => {
 	return (
@@ -62,12 +66,12 @@ const Timeline = () => {
 								  }
 						}
 					>
-						<H3 className='vertical-timeline-element-title' icon={event.icon}>
+						<H4 className='vertical-timeline-element-title' icon={event.icon}>
 							{event.title}
-						</H3>
-						<h4 className='vertical-timeline-element-subtitle'>
+						</H4>
+						<P className='vertical-timeline-element-subtitle'>
 							{event.location}
-						</h4>
+						</P>
 						<p id='description'>{event.description}</p>
 					</VerticalTimelineElement>
 				);

@@ -3,21 +3,19 @@ import styled from 'styled-components';
 
 const colorStyles = {
 	primary: {
-		color: 'var(--background-color)',
+		color: 'white',
 		backgroundColor: 'var(--accent-color)',
 	},
 	secondary: {
-		color: 'var(--accent-color)',
-		backgroundColor: 'var(--background-color)',
+		color: 'white',
+		backgroundColor: 'black',
 	},
 };
 
 const StyledButton = styled.button`
-	padding: 10px;
-	font-size: 1.1rem;
-	border-radius: 5px;
-	border: 1px solid var(--accent-color);
-	font-weight: bold;
+	padding: 0.7rem 1.85rem;
+	font-size: 0.9rem;
+	border-radius: 100px;
 	cursor: pointer;
 	color: ${(props) => colorStyles[props.color].color};
 	background-color: ${(props) => colorStyles[props.color].backgroundColor};

@@ -21,9 +21,7 @@ const Content = styled.div`
 	margin: 0 auto;
 `;
 
-const Text = styled.div`
-	color: var(--light-color);
-	font-weight: bold;
+const Text = styled.p`
 	display: flex;
 	align-items: center;
   font-size: 1.2rem;
@@ -47,13 +45,13 @@ const Contact = () => {
 			<Content>
 				<Text>Visit my links below or email me at lindavid1998@gmail.com!</Text>
 				<Logos>
-          <a href='https://www.linkedin.com/in/lindavid1998/'>
-            <Img src={linkedinLogo} />
-          </a>
-          <a href='https://github.com/lindavid1998'>
-            <Img src={githubLogo} />
-          </a>
-        </Logos>
+					<a href='https://www.linkedin.com/in/lindavid1998/'>
+						<Img src={linkedinLogo} />
+					</a>
+					<a href='https://github.com/lindavid1998'>
+						<Img src={githubLogo} />
+					</a>
+				</Logos>
 			</Content>
 		</Container>
 	);

@@ -8,7 +8,7 @@ const Container = styled.div`
 	height: fit-content;
 	width: 80%;
 	gap: 40px;
-	justify-content: space-between;
+	justify-content: center;
 `;
 
 const Image = styled.div`
@@ -25,23 +25,19 @@ const Info = styled.div`
 	display: flex;
 	flex-direction: column;
 	gap: 25px;
-	width: 50%;
+	width: fit-content;
 `;
 
-const Name = styled.div`
-	font-size: 1.5rem;
-	font-weight: bold;
-	color: var(--accent-color);
-`;
-
-const Description = styled.div`
-	font-color: var(--light-color);
-	font-size: 1.1rem;
+const Description = styled.p`
+	// color: var(--light-color);
+	// font-size: 1.1rem;
+	// line-height: 1.5;
+	max-width: 600px;
 `;
 
 const Buttons = styled.div`
 	display: flex;
-	gap: 25px;
+	gap: 20px;
 	margin-top: auto;
 `;
 
@@ -50,7 +46,7 @@ const Project = ({ name, image, description, stack, demo, github }) => {
 		<Container>
 			<Image image={image}></Image>
 			<Info>
-				<Name>{name}</Name>
+				<h3>{name}</h3>
 				<Description>{description}</Description>
 				<Stack stack={stack} />
 				<Buttons>

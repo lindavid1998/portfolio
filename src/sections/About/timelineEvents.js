@@ -35,7 +35,7 @@ const timelineEvents = [
 		title: `Full time adulting`,
 		location: 'San Diego, CA',
 		description:
-			'Started work as a process development engineer at Illumina. Learned how to use the pandas library for Python, and used it to write a script for parsing log data',
+			'Started work as a process development engineer at Illumina in consumables manufacturing operations. Learned how to use the pandas and NumPy libraries for Python, and used it to write a script to parse log data',
 		date: 'June 2021 - Present',
 		icon: 'work',
 	},
@@ -51,10 +51,10 @@ const timelineEvents = [
 		title: `Working on my own project from scratch`,
 		location: 'San Diego, CA',
 		description:
-			'Finished the front end portion of the Odin Project. I wanted to take everything I learned and put it together in a passion project, away from tutorials. Just me and my imagination defining the requirements. I took my two passions, hiking and soccer, together to make AllFields, a CRUD application that is based off the popular app AllTrails.',
+			'Finished the front end portion of the Odin Project. I wanted to take everything I learned and put it together in an independent project, instead of following more tutorials. Just me and my imagination defining the requirements. I took my two passions, hiking and soccer, together to make AllFields, a CRUD application that is based off the popular app AllTrails.',
 		date: 'August 2023',
 		icon: 'code',
-	},
+	},	
 	{
 		title: `Grad school again, but for computer science`,
 		location: 'Remote',

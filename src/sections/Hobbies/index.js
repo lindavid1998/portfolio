@@ -24,7 +24,7 @@ const Img = styled.div`
 	background-size: cover;
 `;
 
-const Caption = styled.div`
+const Caption = styled.p`
 	position: absolute;
 	bottom: 0%;
 	width: 320px;
@@ -74,15 +74,33 @@ const Hobby = ({ img, caption }) => {
 
 const Hobbies = () => {
 	return (
-    <Container id='hobbies'>
+		<Container id='hobbies'>
       <h1>Hobbies and Interests</h1>
 			<Dock>
-				<Hobby img={motorcycleImg} caption='Starting riding in 2023 and absolutely love my Honda CBR 300.' />
-				<Hobby img={halfDomeImg} caption='I love going on hikes! This was from the top of Half Dome in 2023.' />
-				<Hobby img={snowboardImg} caption='Snowboarding - still need to learn how to ride park!' />
-				<Hobby img={soccerImg} caption={`I will never say no to soccer. You'll pretty much find me playing 4-5 times a week.`}/>
-				<Hobby img={japanImg} caption='Love to travel and explore new places! Japan has been my favorite.' />
-				<Hobby img={formulaOneImg} caption='Formula One! This was from the Canadian GP back in 2022.' />
+				<Hobby
+					img={motorcycleImg}
+					caption='Starting riding in 2023 and absolutely love my Honda CBR 300.'
+				/>
+				<Hobby
+					img={halfDomeImg}
+					caption='I love going on hikes! This was from the top of Half Dome in 2023.'
+				/>
+				<Hobby
+					img={snowboardImg}
+					caption='Snowboarding - still need to learn how to ride park!'
+				/>
+				<Hobby
+					img={soccerImg}
+					caption={`I will never say no to soccer. You'll pretty much find me playing 4-5 times a week.`}
+				/>
+				<Hobby
+					img={japanImg}
+					caption='Love to travel and explore new places! Japan has been my favorite.'
+				/>
+				<Hobby
+					img={formulaOneImg}
+					caption='Formula One! This was from the Canadian GP back in 2022.'
+				/>
 			</Dock>
 		</Container>
 	);

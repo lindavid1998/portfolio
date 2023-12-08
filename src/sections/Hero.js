@@ -6,13 +6,13 @@ import Typed from 'typed.js';
 const Container = styled.div`
 	display: flex;
 	align-items: center;
-	gap: 80px;
+	gap: 50px;
 `;
 
 const Image = styled.img`
 	border-radius: 50%;
-	height: 350px;
-	width: 350px;
+	height: 320px;
+	width: 320px;
 	object-fit: cover;
 	transform-origin: center;
 `;
@@ -25,14 +25,8 @@ const TextWrapper = styled.div`
 	gap: 30px;
 `;
 
-const Text = styled.div`
-	font-size: 2rem;
-	max-width: 420px;
-	color: var(--light-color);
-`;
-
-const Subtext = styled.div`
-	font-size: 1.3rem;
+const Text = styled.h3`
+	width: 420px;
 `;
 
 const Hero = () => {
@@ -40,9 +34,9 @@ const Hero = () => {
 
 	useEffect(() => {
 		const typed = new Typed(el.current, {
-			strings: [`I'm David, your friendly neighborhood front-end dev`],
+			strings: [`Hello! I'm David. Get to know me and my work below!`],
 			startDelay: 300,
-			typeSpeed: 50,
+			typeSpeed: 30,
 		});
   }, []);
   
@@ -51,7 +45,6 @@ const Hero = () => {
 			<Image src={meImg}></Image>
 			<TextWrapper>
         <Text><span ref={el}></span></Text>
-				<Subtext>Get to know me and my work below!</Subtext>
 			</TextWrapper>
 		</Container>
 	);

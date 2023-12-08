@@ -6,37 +6,33 @@ import styled from 'styled-components';
 const Container = styled.div`
 	padding: 20px;
 	flex: 1;
+	background-color: var(--dark-gray-background);
 `;
 
 const Info = styled.div`
 	display: flex;
 	flex-direction: column;
-	gap: 25px;
+	gap: 15px;
 	height: 100%;
 `;
 
-const Name = styled.div`
-	font-size: 1.5rem;
-	font-weight: bold;
-	color: var(--accent-color);
-`;
-
-const Description = styled.div`
-	font-color: var(--light-color);
-	font-size: 1.1rem;
+const Description = styled.p`
+	overflow: hidden;
 `;
 
 const Buttons = styled.div`
 	display: flex;
-	gap: 25px;
+	gap: 20px;
 	margin-top: auto;
+	min-height: 80px;
+	align-items: flex-end;
 `;
 
 const Card = ({ name, description, stack, demo, github }) => {
 	return (
 		<Container>
 			<Info>
-				<Name>{name}</Name>
+				<h3>{name}</h3>
 				<Description>{description}</Description>
 				<Stack stack={stack} />
 				<Buttons>

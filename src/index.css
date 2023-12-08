@@ -5,9 +5,7 @@
 
 body {
 	margin: 0;
-	font-family: 'Figtree', sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Inter', sans-serif;
 	min-width: 100vw;
 	min-height: 100vh;
 	color: white;
@@ -16,8 +14,10 @@ body {
 
 :root {
 	--background-color: #151515;
+	--dark-gray-background: #202020;
 	--dark-blue-bg-color: #0C1821;
-	--accent-color: #39ace7;
+	/* --accent-color: #39ace7; */
+	--accent-color: #1846fb;
 	--light-color: #dafffb;
 	--gray-color: #d9d9d9;
 	--max-width: 1200px;
@@ -39,4 +39,45 @@ a:active {
 .vertical-timeline-element-content {
 	box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
 		0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+h1 {
+	font-size: 2.488rem;
+}
+
+h2 {
+	font-size: 2.074rem;
+}
+
+h3 {
+	font-size: 1.728rem;
+}
+
+h4 {
+	font-size: 1.44rem;
+}
+
+h5 {
+	font-size: 1.2rem;
+}
+
+h1, h2 {
+	margin: 1rem;
+}
+
+h3, h4, h5 {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+	letter-spacing: -0.022em;
+	line-height: 1.15;
+	font-weight: 700;
+}
+
+p {
+	line-height: 1.5em;
+	margin: 0;
+	color: #d2d2d2;
+	font-size: 18px;
 }

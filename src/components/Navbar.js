@@ -6,9 +6,8 @@ import ResumePdf from '../assets/Resume_Nov2023.pdf'
 const Nav = styled.nav`
 	display: flex;
 	justify-content: center;
-	width: 100%;
+	width: 90%;
 	padding: 10px 0;
-	font-weight: bold;
 `;
 
 const Wrapper = styled.div`
@@ -18,14 +17,15 @@ const Wrapper = styled.div`
 	width: 80%;
 `;
 
-const Name = styled.h1`
+const Name = styled.h2`
 	margin: 0;
 	cursor: pointer;
+	padding: 0;
 `;
 
 const Menu = styled.div`
 	display: flex;
-	gap: 45px;
+	gap: 35px;
 `;
 
 const Item = styled.a`

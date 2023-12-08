@@ -8,29 +8,23 @@ import Cards from './Cards';
 
 const Container = styled.div`
 	display: flex;
-	width: 80%;
+	width: 90%;
 	flex-direction: column;
 	align-items: center;
-	gap: 70px;
+	gap: 50px;
 `;
-
-const H1 = styled.h1`
-  margin: 0;
-`
 
 const Projects = () => {
 	return (
 		<Container id='projects'>
-			<H1>Projects</H1>
+			<h1>Projects</h1>
 			<Project
 				name='AllFields'
 				image={AllFieldsImg}
 				description={
-					'An AllTrails clone for soccer players. Users can create accounts,' +
+					'A CRUD application built with React and Firebase. It is essentially a clone of AllTrails, but for soccer. Users can create accounts,' +
 					' look up soccer fields in San Diego, and post reviews of the field' +
-					' conditions. I did this project because I wanted to make a CRUD' +
-					' application on my own instead of following a tutorial,' +
-					` and it's been a blast!`
+					' conditions.'
 				}
 				stack={['html', 'css', 'js', 'react', 'firebase']}
 				demo='https://allfields-570a5.web.app/'
@@ -41,7 +35,7 @@ const Projects = () => {
 				image={WaldoImg}
 				description={
 					`A photo tagging app based on the game Where's Waldo.` +
-					` The hardest part about this project was implementing` +
+					` The challenging part about this project was implementing` +
 					` the logic for checking users answers.`
 				}
 				stack={['html', 'css', 'js', 'jest', 'react', 'firebase']}
@@ -51,7 +45,7 @@ const Projects = () => {
 			<Project
 				name={`Snowboard Shop`}
 				image={SnowboardImg}
-				description={`A mock snowboard shop where you can look up items, add them to your cart, and check them out!`}
+				description={`A mock snowboard shop where you can look up items, add them to their cart, and check them out!`}
 				stack={['html', 'css', 'js', 'jest', 'react', 'redux']}
 				demo='https://lindavid1998.github.io/snowboard-shop/'
 				github='https://github.com/lindavid1998/snowboard-shop'

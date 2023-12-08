@@ -5,9 +5,9 @@ import Card from './Card';
 const Container = styled.div`
 	display: flex;
 	width: 80%;
-  justify-content: space-between;
-  gap: 20px;
-  align-items: stretch;
+	justify-content: space-between;
+	gap: 28px;
+	align-items: stretch;
 `;
 
 const cardData = [
