@@ -59,8 +59,16 @@ const timelineEvents = [
 		title: `Grad school again, but for computer science`,
 		location: 'Remote',
 		description:
-			'Will be starting the OMSCS program, with a specialization in machine learning. Very excited to see where this takes me!',
+			'Started the Georgia Tech OMSCS program with a specialization in machine learning. Taking Machine Learning for Trading (CS 7646) as my first class. Very excited to see where this takes me!',
 		date: 'January 2024',
+		icon: 'code',
+	},
+	{
+		title: `First machine learning project`,
+		location: 'San Diego, CA',
+		description:
+			'Brainstorming my first ML side project.. more to come!',
+		date: 'March 2024',
 		icon: 'code',
 	},
 ];

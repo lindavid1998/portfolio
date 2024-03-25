@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import Project from './Project';
-import AllFieldsImg from './AllFields.png';
-import WaldoImg from './Waldo.png';
-import SnowboardImg from './Snowboard.png';
+import AllFieldsImg from '../../assets/allfields-demo.gif';
+import WaldoImg from '../../assets/waldo-demo.gif';
+import SnowboardImg from '../../assets/snowboard-demo.gif';
 import Cards from './Cards';
 
 const Container = styled.div`
