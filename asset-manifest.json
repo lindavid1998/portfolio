@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.604fe3e8.css",
-    "main.js": "/portfolio/static/js/main.b5dad37c.js",
+    "main.js": "/portfolio/static/js/main.f41f5c10.js",
+    "static/media/waldo-demo.gif": "/portfolio/static/media/waldo-demo.6a3650b0607afc4b6da9.gif",
+    "static/media/allfields-demo.gif": "/portfolio/static/media/allfields-demo.29bb3fae115549cbe2e4.gif",
     "static/media/me.jpg": "/portfolio/static/media/me.5df23b4f983598227e99.jpg",
     "static/media/japan.JPG": "/portfolio/static/media/japan.fc842c515d38dfb0b104.JPG",
-    "static/media/Waldo.png": "/portfolio/static/media/Waldo.330a891b16565d131a99.png",
     "static/media/soccer.jpeg": "/portfolio/static/media/soccer.a650325d222a964398fc.jpeg",
+    "static/media/snowboard-demo.gif": "/portfolio/static/media/snowboard-demo.bf4f6f41903efc7b408a.gif",
     "static/media/motorcycle.jpg": "/portfolio/static/media/motorcycle.d1f655d1164a35f219b6.jpg",
     "static/media/half-dome.jpg": "/portfolio/static/media/half-dome.d52dc6d6796f877b40b1.jpg",
-    "static/media/AllFields.png": "/portfolio/static/media/AllFields.047ad684ba8cf14b4abc.png",
     "static/media/formulaOne.jpg": "/portfolio/static/media/formulaOne.42fb5e8cf91b86bf31ae.jpg",
     "static/media/snowboard.jpg": "/portfolio/static/media/snowboard.e899a7a69b0cb5f79116.jpg",
-    "static/media/Snowboard.png": "/portfolio/static/media/Snowboard.5dfc1ed9e04283cfb9b7.png",
     "static/media/Resume_Dec2023.pdf": "/portfolio/static/media/Resume_Dec2023.33e33a32a2c079d6d563.pdf",
     "index.html": "/portfolio/index.html",
     "static/media/graduation-cap-solid.svg": "/portfolio/static/media/graduation-cap-solid.c7e1cacef9986b2850fdcd42fdbf576a.svg",
@@ -21,10 +21,10 @@
     "static/media/briefcase-solid.svg": "/portfolio/static/media/briefcase-solid.014aac83e55c8e5fb3cdb8adf37660c7.svg",
     "static/media/linkedin-logo.svg": "/portfolio/static/media/linkedin-logo.b043fc4581452f96d7c43569d939cc6a.svg",
     "main.604fe3e8.css.map": "/portfolio/static/css/main.604fe3e8.css.map",
-    "main.b5dad37c.js.map": "/portfolio/static/js/main.b5dad37c.js.map"
+    "main.f41f5c10.js.map": "/portfolio/static/js/main.f41f5c10.js.map"
   },
   "entrypoints": [
     "static/css/main.604fe3e8.css",
-    "static/js/main.b5dad37c.js"
+    "static/js/main.f41f5c10.js"
   ]
 }
