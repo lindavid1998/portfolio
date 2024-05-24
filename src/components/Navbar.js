@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { ReactComponent as DownloadIcon } from '../assets/download-solid.svg';
-import ResumePdf from '../assets/Resume_Dec2023.pdf'
+import ResumePdf from '../assets/Resume_David_Lin.pdf'
 
 const Nav = styled.nav`
 	display: flex;
