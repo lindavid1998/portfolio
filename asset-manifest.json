@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.604fe3e8.css",
-    "main.js": "/portfolio/static/js/main.bca21aa5.js",
+    "main.js": "/portfolio/static/js/main.6494b601.js",
     "static/media/waldo-demo.gif": "/portfolio/static/media/waldo-demo.6a3650b0607afc4b6da9.gif",
     "static/media/allfields-demo.gif": "/portfolio/static/media/allfields-demo.29bb3fae115549cbe2e4.gif",
     "static/media/me.jpg": "/portfolio/static/media/me.5df23b4f983598227e99.jpg",
+    "static/media/wip.jpg": "/portfolio/static/media/wip.9142d7039b9c8c06f1a6.jpg",
     "static/media/japan.JPG": "/portfolio/static/media/japan.fc842c515d38dfb0b104.JPG",
+    "static/media/trading.jpg": "/portfolio/static/media/trading.438dfb4b74a92af640c4.jpg",
     "static/media/soccer.jpeg": "/portfolio/static/media/soccer.a650325d222a964398fc.jpeg",
     "static/media/snowboard-demo.gif": "/portfolio/static/media/snowboard-demo.bf4f6f41903efc7b408a.gif",
     "static/media/motorcycle.jpg": "/portfolio/static/media/motorcycle.d1f655d1164a35f219b6.jpg",
@@ -21,10 +23,10 @@
     "static/media/briefcase-solid.svg": "/portfolio/static/media/briefcase-solid.014aac83e55c8e5fb3cdb8adf37660c7.svg",
     "static/media/linkedin-logo.svg": "/portfolio/static/media/linkedin-logo.b043fc4581452f96d7c43569d939cc6a.svg",
     "main.604fe3e8.css.map": "/portfolio/static/css/main.604fe3e8.css.map",
-    "main.bca21aa5.js.map": "/portfolio/static/js/main.bca21aa5.js.map"
+    "main.6494b601.js.map": "/portfolio/static/js/main.6494b601.js.map"
   },
   "entrypoints": [
     "static/css/main.604fe3e8.css",
-    "static/js/main.bca21aa5.js"
+    "static/js/main.6494b601.js"
   ]
 }
