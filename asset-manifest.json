@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.604fe3e8.css",
-    "main.js": "/portfolio/static/js/main.f41f5c10.js",
+    "main.js": "/portfolio/static/js/main.bca21aa5.js",
     "static/media/waldo-demo.gif": "/portfolio/static/media/waldo-demo.6a3650b0607afc4b6da9.gif",
     "static/media/allfields-demo.gif": "/portfolio/static/media/allfields-demo.29bb3fae115549cbe2e4.gif",
     "static/media/me.jpg": "/portfolio/static/media/me.5df23b4f983598227e99.jpg",
@@ -12,7 +12,7 @@
     "static/media/half-dome.jpg": "/portfolio/static/media/half-dome.d52dc6d6796f877b40b1.jpg",
     "static/media/formulaOne.jpg": "/portfolio/static/media/formulaOne.42fb5e8cf91b86bf31ae.jpg",
     "static/media/snowboard.jpg": "/portfolio/static/media/snowboard.e899a7a69b0cb5f79116.jpg",
-    "static/media/Resume_Dec2023.pdf": "/portfolio/static/media/Resume_Dec2023.33e33a32a2c079d6d563.pdf",
+    "static/media/Resume_David_Lin.pdf": "/portfolio/static/media/Resume_David_Lin.7281d2b043f76ba54903.pdf",
     "index.html": "/portfolio/index.html",
     "static/media/graduation-cap-solid.svg": "/portfolio/static/media/graduation-cap-solid.c7e1cacef9986b2850fdcd42fdbf576a.svg",
     "static/media/code-solid.svg": "/portfolio/static/media/code-solid.3c3282c5c6b706b280eaf6b868fea3ba.svg",
@@ -21,10 +21,10 @@
     "static/media/briefcase-solid.svg": "/portfolio/static/media/briefcase-solid.014aac83e55c8e5fb3cdb8adf37660c7.svg",
     "static/media/linkedin-logo.svg": "/portfolio/static/media/linkedin-logo.b043fc4581452f96d7c43569d939cc6a.svg",
     "main.604fe3e8.css.map": "/portfolio/static/css/main.604fe3e8.css.map",
-    "main.f41f5c10.js.map": "/portfolio/static/js/main.f41f5c10.js.map"
+    "main.bca21aa5.js.map": "/portfolio/static/js/main.bca21aa5.js.map"
   },
   "entrypoints": [
     "static/css/main.604fe3e8.css",
-    "static/js/main.f41f5c10.js"
+    "static/js/main.bca21aa5.js"
   ]
 }
