@@ -38,9 +38,12 @@ const Hero = () => {
 
 	useEffect(() => {
 		const typed = new Typed(el.current, {
-			strings: [`Hello! I'm David. Get to know me and my work below!`],
+			strings: [
+				`> Hello! I'm David. Seeking a Software Engineering role.
+				Discover my projects and skills below!`,
+			],
 			startDelay: 300,
-			typeSpeed: 30,
+			typeSpeed: 20,
 		});
 	}, []);
 
