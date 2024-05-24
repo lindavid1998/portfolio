@@ -15,7 +15,7 @@ const Content = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-  flex-direction: column;
+	flex-direction: column;
 	gap: 20px;
 	width: 80%;
 	margin: 0 auto;
@@ -24,7 +24,8 @@ const Content = styled.div`
 const Text = styled.p`
 	display: flex;
 	align-items: center;
-  font-size: 1.2rem;
+	font-size: 1.2rem;
+	text-align: center;
 `;
 
 const Img = styled.img`
@@ -34,9 +35,9 @@ const Img = styled.img`
 `;
 
 const Logos = styled.div`
-  display: flex;
-  gap: 20px;
-`
+	display: flex;
+	gap: 20px;
+`;
 
 const Contact = () => {
 	return (

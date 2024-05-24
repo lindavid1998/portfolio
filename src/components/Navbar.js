@@ -31,6 +31,17 @@ const Name = styled.h2`
 const Menu = styled.div`
 	display: flex;
 	gap: 35px;
+	@media (max-width: 850px) {
+		display: none;
+	}
+`;
+
+const MiniMenu = styled.div`
+	display: none;
+	gap: 35px;
+	@media (max-width: 850px) {
+		display: flex;
+	}
 `;
 
 const Item = styled.a`
@@ -65,6 +76,12 @@ const Navbar = () => {
 					<Item href='#hobbies'>Hobbies</Item>
 					<Item href='#contact'>Contact</Item>
 				</Menu>
+				<MiniMenu>
+					<Item href={ResumePdf} download='David_Lin_Resume.pdf'>
+						<div>Resume</div>
+						<Icon fill='white'></Icon>
+					</Item>
+				</MiniMenu>
 			</Wrapper>
 		</Nav>
 	);

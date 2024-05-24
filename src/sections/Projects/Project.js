@@ -13,6 +13,7 @@ const Container = styled.div`
 
 	@media (max-width: 850px) {
 		background-color: var(--dark-gray-background);
+		width: 100%;
 	}
 `;
 

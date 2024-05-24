@@ -4,16 +4,16 @@ import motorcycleImg from '../../assets/motorcycle.jpg';
 import halfDomeImg from '../../assets/half-dome.jpg';
 import snowboardImg from '../../assets/snowboard.jpg';
 import soccerImg from '../../assets/soccer.jpeg';
-import japanImg from '../../assets/japan.JPG'
-import formulaOneImg from '../../assets/formulaOne.jpg'
+import japanImg from '../../assets/japan.JPG';
+import formulaOneImg from '../../assets/formulaOne.jpg';
 
 const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  width: 80%;
-`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	width: 80%;
+`;
 
 const Img = styled.div`
 	width: 320px;
@@ -30,11 +30,11 @@ const Caption = styled.p`
 	width: 320px;
 	padding: 8px;
 	font-size: 1.1rem;
-	transition-delay: 2s; 
+	transition-delay: 2s;
 	transition: opacity 0.2s ease;
 	background-color: rgba(0, 0, 0, 0.8);
 	opacity: 0;
-  overflow: hidden;
+	overflow: hidden;
 `;
 
 const Dock = styled.div`
@@ -43,6 +43,9 @@ const Dock = styled.div`
 	width: 100%;
 	overflow: hidden;
 	gap: 5px;
+	@media (max-width: 850px) {
+		flex-direction: column;
+	}
 `;
 
 const DockItem = styled.div`
@@ -50,16 +53,15 @@ const DockItem = styled.div`
 	justify-content: center;
 	align-items: center;
 	flex: 1 1 80px;
-  max-width: 320px;
 	height: 320px;
 	overflow: hidden;
 	position: relative;
-  transition: flex 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+	transition: flex 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 	&:hover {
-    flex: 1 1 320px;
+		flex: 1 1 320px;
 	}
 	&:hover ${Caption} {
-    opacity: 1;
+		opacity: 1;
 	}
 `;
 
@@ -75,7 +77,7 @@ const Hobby = ({ img, caption }) => {
 const Hobbies = () => {
 	return (
 		<Container id='hobbies'>
-      <h1>Hobbies and Interests</h1>
+			<h1 style={{ textAlign: 'center' }}>Hobbies and Interests</h1>
 			<Dock>
 				<Hobby
 					img={motorcycleImg}

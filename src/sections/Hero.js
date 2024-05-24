@@ -30,7 +30,12 @@ const TextWrapper = styled.div`
 `;
 
 const Text = styled.h3`
-	width: 420px;
+	width: 90%;
+	max-width: 420px;
+	font-size: clamp(1.5rem, 3vw, 1.728rem);
+	@media (max-width: 850px) {
+		text-align: center;
+	}
 `;
 
 const Hero = () => {
@@ -39,7 +44,7 @@ const Hero = () => {
 	useEffect(() => {
 		const typed = new Typed(el.current, {
 			strings: [
-				`> Hello! I'm David. Seeking a Software Engineering role.
+				`> Hello! I'm David, and I am seeking a Software Engineering role.
 				Discover my projects and skills below!`,
 			],
 			startDelay: 300,
