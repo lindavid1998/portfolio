@@ -8,6 +8,10 @@ const Container = styled.div`
 	justify-content: space-between;
 	gap: 28px;
 	align-items: stretch;
+	@media (max-width: 850px) {
+		flex-direction: column;
+		gap: 50px;
+	}
 `;
 
 const cardData = [
@@ -15,7 +19,7 @@ const cardData = [
 		name: 'Battleship',
 		description:
 			'An interactive battleship game where users can play with a computer. Project was used to learn Jest for unit testing.',
-		stack: ['html', 'js', 'css', 'jest'],
+		stack: ['jest', 'html', 'js', 'css'],
 		demo: 'https://lindavid1998.github.io/battleship/',
 		github: 'https://github.com/lindavid1998/battleship',
 	},
@@ -41,13 +45,13 @@ const Cards = () => {
 	return (
 		<Container>
 			{cardData.map((project, index) => (
-        <Card
-          key={index}
+				<Card
+					key={index}
 					name={project.name}
 					description={project.description}
-          stack={project.stack}
-          demo={project.demo}
-          github={project.github}
+					stack={project.stack}
+					demo={project.demo}
+					github={project.github}
 				/>
 			))}
 		</Container>

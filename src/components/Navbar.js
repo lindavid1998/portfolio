@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { ReactComponent as DownloadIcon } from '../assets/download-solid.svg';
-import ResumePdf from '../assets/Resume_David_Lin.pdf'
+import ResumePdf from '../assets/Resume_David_Lin.pdf';
 
 const Nav = styled.nav`
 	display: flex;
@@ -15,12 +15,17 @@ const Wrapper = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	width: 80%;
+	@media (max-width: 850px) {
+		flex-direction: column;
+		gap: 15px;
+	}
 `;
 
 const Name = styled.h2`
 	margin: 0;
 	cursor: pointer;
 	padding: 0;
+	min-width: fit-content;
 `;
 
 const Menu = styled.div`
@@ -35,6 +40,7 @@ const Item = styled.a`
 	font-size: 1.2rem;
 	cursor: pointer;
 	transition: transform 0.3s ease-in-out;
+	min-width: fit-content;
 	&:hover {
 		transform: translate(0, -5px);
 	}

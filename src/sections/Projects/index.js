@@ -4,6 +4,8 @@ import Project from './Project';
 import AllFieldsImg from '../../assets/allfields-demo.gif';
 import WaldoImg from '../../assets/waldo-demo.gif';
 import SnowboardImg from '../../assets/snowboard-demo.gif';
+import TradingImg from '../../assets/trading.jpg';
+import WIP from '../../assets/wip.jpg';
 import Cards from './Cards';
 
 const Container = styled.div`
@@ -19,6 +21,24 @@ const Projects = () => {
 		<Container id='projects'>
 			<h1>Projects</h1>
 			<Project
+				name='Shredders (work in progress)'
+				image={WIP}
+				description={`A full stack application where users can add friends and plan snowboarding trips
+					together`}
+				stack={['react', 'postgres', 'express', 'tailwind', 'router']}
+			/>
+			<Project
+				name='Machine Learning Financial Trading Strategy'
+				image={TradingImg}
+				description={`Capstone project for CS7646 - Machine Learning for Trading.
+				A random forest classification learner trading strategy built
+				and tested using technical stock indicators from real-world financial data.
+				Learner and indicator parameters were tuned based on performance metrics
+				such as returns and training time. Achieved a 5% return over a 1-year test
+				dataset.`}
+				stack={['python', 'numpy', 'pandas']}
+			/>
+			<Project
 				name='AllFields'
 				image={AllFieldsImg}
 				description={
@@ -26,7 +46,7 @@ const Projects = () => {
 					' look up soccer fields in San Diego, and post reviews of the field' +
 					' conditions.'
 				}
-				stack={['html', 'css', 'js', 'react', 'firebase']}
+				stack={['react', 'firebase', 'router', 'styledcomponents']}
 				demo='https://allfields-570a5.web.app/'
 				github='https://github.com/lindavid1998/allfields'
 			/>
@@ -38,7 +58,7 @@ const Projects = () => {
 					` The challenging part about this project was implementing` +
 					` the logic for checking users answers.`
 				}
-				stack={['html', 'css', 'js', 'jest', 'react', 'firebase']}
+				stack={['react', 'firebase', 'jest']}
 				demo='https://lindavid1998.github.io/wheres-waldo/'
 				github='https://github.com/lindavid1998/wheres-waldo'
 			/>
@@ -46,7 +66,7 @@ const Projects = () => {
 				name={`Snowboard Shop`}
 				image={SnowboardImg}
 				description={`A mock snowboard shop where you can look up items, add them to their cart, and check them out!`}
-				stack={['html', 'css', 'js', 'jest', 'react', 'redux']}
+				stack={['jest', 'react', 'redux']}
 				demo='https://lindavid1998.github.io/snowboard-shop/'
 				github='https://github.com/lindavid1998/snowboard-shop'
 			/>

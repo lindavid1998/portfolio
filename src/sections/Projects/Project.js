@@ -9,6 +9,11 @@ const Container = styled.div`
 	width: 80%;
 	gap: 40px;
 	justify-content: center;
+	padding: 20px;
+
+	@media (max-width: 850px) {
+		background-color: var(--dark-gray-background);
+	}
 `;
 
 const Image = styled.div`
@@ -19,6 +24,10 @@ const Image = styled.div`
 	background-size: cover;
 	border-radius: 5px;
 	background-position: 70% 70%;
+
+	@media (max-width: 850px) {
+		display: none;
+	}
 `;
 
 const Info = styled.div`
@@ -29,9 +38,6 @@ const Info = styled.div`
 `;
 
 const Description = styled.p`
-	// color: var(--light-color);
-	// font-size: 1.1rem;
-	// line-height: 1.5;
 	max-width: 600px;
 `;
 
@@ -49,14 +55,16 @@ const Project = ({ name, image, description, stack, demo, github }) => {
 				<h3>{name}</h3>
 				<Description>{description}</Description>
 				<Stack stack={stack} />
-				<Buttons>
-					<a href={demo}>
-						<Button color='primary' text='Demo' />
-					</a>
-					<a href={github}>
-						<Button color='secondary' text='Code' />
-					</a>
-				</Buttons>
+				{demo && github && (
+					<Buttons>
+						<a href={demo}>
+							<Button color='primary' text='Demo' />
+						</a>
+						<a href={github}>
+							<Button color='secondary' text='Code' />
+						</a>
+					</Buttons>
+				)}
 			</Info>
 		</Container>
 	);

@@ -7,6 +7,10 @@ const Container = styled.div`
 	display: flex;
 	align-items: center;
 	gap: 50px;
+
+	@media (max-width: 850px) {
+		flex-direction: column;
+	}
 `;
 
 const Image = styled.img`
@@ -30,7 +34,7 @@ const Text = styled.h3`
 `;
 
 const Hero = () => {
-  const el = useRef(null);
+	const el = useRef(null);
 
 	useEffect(() => {
 		const typed = new Typed(el.current, {
@@ -38,13 +42,15 @@ const Hero = () => {
 			startDelay: 300,
 			typeSpeed: 30,
 		});
-  }, []);
-  
+	}, []);
+
 	return (
 		<Container>
 			<Image src={meImg}></Image>
 			<TextWrapper>
-        <Text><span ref={el}></span></Text>
+				<Text>
+					<span ref={el}></span>
+				</Text>
 			</TextWrapper>
 		</Container>
 	);
