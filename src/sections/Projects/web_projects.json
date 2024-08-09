@@ -4,8 +4,8 @@
     "image": "shredders-demo.png",
     "description": "A PERN web application designed to help snowboarders plan trips and see which of their friends have overlapping trips. It was created as an exercise for using PostgreSQL and to provide a fun tool for snowboarders. The idea came about last snowboard season when I ran into some friends by chance and thought it'd be nice to know ahead of time which friends had overlapping trips with you!",
     "stack": ["react", "postgres", "express", "node", "tailwind", "router", "supabase", "jwt"],
-		"demo": "https://github.com/lindavid1998/shredders",
-		"github": "https://shredders-client.onrender.com/"
+		"demo": "https://shredders-client.onrender.com/",
+		"github": "https://github.com/lindavid1998/shredders"
   },
 	{
 		"name": "AllFields",
