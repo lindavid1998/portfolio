@@ -81,7 +81,7 @@ const Hobbies = () => {
 			<Dock>
 				<Hobby
 					img={motorcycleImg}
-					caption='Starting riding in 2023 and absolutely love my Honda CBR 300.'
+					caption='Starting riding in 2023 and absolutely love my CBR.'
 				/>
 				<Hobby
 					img={halfDomeImg}
@@ -89,11 +89,11 @@ const Hobbies = () => {
 				/>
 				<Hobby
 					img={snowboardImg}
-					caption='Snowboarding - still need to learn how to ride park!'
+					caption='Snowboarding - still learning how to ride park!'
 				/>
 				<Hobby
 					img={soccerImg}
-					caption={`I will never say no to soccer. You'll pretty much find me playing 4-5 times a week.`}
+					caption={`I will never say no to soccer. You'll find me playing 4-5 times a week.`}
 				/>
 				<Hobby
 					img={japanImg}

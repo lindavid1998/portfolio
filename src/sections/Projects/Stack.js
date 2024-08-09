@@ -7,53 +7,31 @@ const Container = styled.div`
 	gap: 8px;
 `;
 
-// const badges = {
-// 	html: 'HTML5-20232A?style=for-the-badge&logo=html5&logoColor=FFFFFF',
-// 	css: 'CSS3-20232A?style=for-the-badge&logo=css3&logoColor=FFFFFF',
-// 	react: 'React-20232A?style=for-the-badge&logo=react&logoColor=FFFFFF',
-// 	js: 'JavaScript-20232A?style=for-the-badge&logo=javascript&logoColor=FFFFFF',
-// 	jest: 'Jest-20232A?style=for-the-badge&logo=Jest&logoColor=FFFFFF',
-// 	redux: 'Redux-20232A?style=for-the-badge&logo=redux&logoColor=FFFFFF',
-// 	firebase:
-// 		'Firebase-20232A?style=for-the-badge&logo=firebase&logoColor=FFFFFF',
-// 	router:
-// 		'React%20Router-CA4245.svg?style=for-the-badge&logo=React-Router&logoColor=white',
-// 	postgres:
-// 		'PostgreSQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white',
-// 	express:
-// 		'Express-000000.svg?style=for-the-badge&logo=Express&logoColor=white',
-// 	tailwind:
-// 		'Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white',
-// 	python:
-// 		'Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white',
-// 	pandas:
-// 		'pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white',
-// 	numpy:
-// 		'NumPy-013243.svg?style=for-the-badge&logo=NumPy&logoColor=white',
-// };
-
 const badges = {
-	html: 'HTML5-20232A?style=for-the-badge&logo=html5&logoColor=white',
-	css: 'CSS3-20232A?style=for-the-badge&logo=css3&logoColor=white',
-	react: 'React-61DAFB?style=for-the-badge&logo=react&logoColor=black',
-	js: 'JavaScript-20232A?style=for-the-badge&logo=javascript&logoColor=white',
-	jest: 'Jest-C21325?style=for-the-badge&logo=Jest&logoColor=white',
-	redux: 'Redux-593D88?style=for-the-badge&logo=redux&logoColor=white',
+	html: 'HTML5-20232A?style=for-the-badge&logo=html5&logoColor=FFFFFF',
+	css: 'CSS3-20232A?style=for-the-badge&logo=css3&logoColor=FFFFFF',
+	react: 'React-20232A?style=for-the-badge&logo=react&logoColor=FFFFFF',
+	js: 'JavaScript-20232A?style=for-the-badge&logo=javascript&logoColor=FFFFFF',
+	jest: 'Jest-20232A?style=for-the-badge&logo=Jest&logoColor=FFFFFF',
+	redux: 'Redux-20232A?style=for-the-badge&logo=redux&logoColor=FFFFFF',
 	firebase:
-		'Firebase-FFCA28.svg?style=for-the-badge&logo=Firebase&logoColor=black',
+		'Firebase-20232A?style=for-the-badge&logo=firebase&logoColor=FFFFFF',
 	router:
-		'React%20Router-CA4245.svg?style=for-the-badge&logo=React-Router&logoColor=white',
+		'React%20Router-20232A.svg?style=for-the-badge&logo=React-Router&logoColor=white',
 	postgres:
-		'PostgreSQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white',
+		'PostgreSQL-20232A.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white',
 	express:
-		'Express-000000.svg?style=for-the-badge&logo=Express&logoColor=white',
+		'Express-20232A.svg?style=for-the-badge&logo=Express&logoColor=white',
 	tailwind:
-		'Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white',
-	python: 'Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white',
-	pandas: 'pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white',
-	numpy: 'NumPy-013243.svg?style=for-the-badge&logo=NumPy&logoColor=white',
+		'Tailwind%20CSS-20232A.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white',
+	python: 'Python-20232A.svg?style=for-the-badge&logo=Python&logoColor=white',
+	pandas: 'pandas-20232A.svg?style=for-the-badge&logo=pandas&logoColor=white',
+	numpy: 'NumPy-20232A.svg?style=for-the-badge&logo=NumPy&logoColor=white',
+	supabase: 'Supabase-20232A?style=for-the-badge&logo=supabase&logoColor=white',
+	node: 'Node.js-20232A?style=for-the-badge&logo=node.js&logoColor=white',
+	jwt: 'json%20web%20tokens-20232A?style=for-the-badge&logo=json-web-tokens&logoColor=white',
 	styledcomponents:
-		'styledcomponents-DB7093.svg?style=for-the-badge&logo=styled-components&logoColor=white',
+		'styledcomponents-20232A.svg?style=for-the-badge&logo=styled-components&logoColor=white',
 };
 
 const Stack = ({ stack }) => {

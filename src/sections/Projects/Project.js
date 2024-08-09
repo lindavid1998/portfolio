@@ -17,14 +17,13 @@ const Container = styled.div`
 	}
 `;
 
-const Image = styled.div`
-	background-image: url(${(prop) => prop.image});
+const Image = styled.img`
 	width: 60%;
 	height: 370px;
 	max-width: 470px;
-	background-size: cover;
+	object-fit: cover;
 	border-radius: 5px;
-	background-position: 70% 70%;
+	object-position: 70% 70%;
 
 	@media (max-width: 850px) {
 		display: none;
@@ -51,7 +50,7 @@ const Buttons = styled.div`
 const Project = ({ name, image, description, stack, demo, github }) => {
 	return (
 		<Container>
-			<Image image={image}></Image>
+			<Image src={require(`../../assets/${image}`)}></Image>
 			<Info>
 				<h3>{name}</h3>
 				<Description>{description}</Description>

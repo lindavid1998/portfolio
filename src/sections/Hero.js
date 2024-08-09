@@ -6,9 +6,12 @@ import Typed from 'typed.js';
 const Container = styled.div`
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	gap: 50px;
+	width: 60%;
+	margin: 0 auto;
 
-	@media (max-width: 850px) {
+	@media (max-width: 1200px) {
 		flex-direction: column;
 	}
 `;
@@ -27,13 +30,14 @@ const TextWrapper = styled.div`
 	position: relative;
 	bottom: 30px;
 	gap: 30px;
+	flex-grow: 1;
 `;
 
 const Text = styled.h3`
-	width: 90%;
-	max-width: 420px;
+	// width: 90%;
+	max-width: 500px;
 	font-size: clamp(1.5rem, 3vw, 1.728rem);
-	@media (max-width: 850px) {
+	@media (max-width: 1200px) {
 		text-align: center;
 	}
 `;

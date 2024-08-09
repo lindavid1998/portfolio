@@ -1,0 +1,20 @@
+[
+  {
+		"name": "Warehouse Path Planner",
+		"image": "warehouse.jpg",
+		"description": "Project for CS7638 - AI for Robotics. A path planning project where I modeled a warehouse robot in a 2D grid environment. I implemented the A* search algorithm to optimize the robot's pathfinding while navigating obstacles and uneven terrain. I also developed an optimal policy using dynamic programming, and accounted for stochastic motion and noise in the robot's behavior.",
+		"stack": ["python"]
+	},
+  {
+		"name": "Indiana Drones GraphSLAM",
+		"image": "drone.jpg",
+		"description": "Project for CS7638 - AI for Robotics. I applied linear GraphSLAM techniques to localize a robot and map obstacles in a 2D grid, while also accounting for noise in motion and measurement data. Using the resulting map, I designed a path planning algorithm to efficiently route the robot to a treasure location, integrating realistic motion constraints and successfully avoiding obstacles.",
+		"stack": ["python"]
+	},
+	{
+		"name": "Machine Learning Financial Trading Strategy",
+		"image": "trading.jpg",
+		"description": "Capstone project for CS7646 - Machine Learning for Trading. A random forest classification learner trading strategy built and tested using technical stock indicators from real-world financial data. Learner and indicator parameters were tuned based on performance metrics such as returns and training time. Achieved a 5% return over an unseen 1-year dataset.",
+		"stack": ["python", "numpy", "pandas"]
+	}
+]
