@@ -35,9 +35,6 @@ const Info = styled.div`
 	flex-direction: column;
 	gap: 25px;
 	width: fit-content;
-`;
-
-const Description = styled.p`
 	max-width: 600px;
 `;
 
@@ -53,7 +50,7 @@ const Project = ({ name, image, description, stack, demo, github }) => {
 			<Image src={require(`../../assets/${image}`)}></Image>
 			<Info>
 				<h3>{name}</h3>
-				<Description>{description}</Description>
+				<p>{description}</p>
 				<Stack stack={stack} />
 				{demo && github && (
 					<Buttons>

@@ -9,7 +9,7 @@
   },
 	{
 		"name": "AllFields",
-		"image": "allfields-demo.gif",
+		"image": "allfields-demo.png",
 		"description": "A CRUD application built with React and Firebase. It is essentially a clone of AllTrails, but for soccer. Users can create accounts, look up soccer fields in San Diego, and post reviews of the field conditions.",
 		"stack": ["react", "firebase", "router", "styledcomponents"],
 		"demo": "https://allfields-570a5.web.app/",
@@ -17,7 +17,7 @@
 	},
 	{
 		"name": "Where's Waldo",
-		"image": "waldo-demo.gif",
+		"image": "waldo-demo.jpg",
 		"description": "A photo tagging app based on the game Where's Waldo. The challenging part about this project was implementing the logic for checking users answers.",
 		"stack": ["react", "firebase", "jest"],
 		"demo": "https://lindavid1998.github.io/wheres-waldo/",

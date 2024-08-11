@@ -11,7 +11,7 @@ const Container = styled.div`
 	width: 60%;
 	margin: 0 auto;
 
-	@media (max-width: 1200px) {
+	@media (max-width: 1400px) {
 		flex-direction: column;
 	}
 `;
@@ -28,16 +28,15 @@ const TextWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	bottom: 30px;
+	// bottom: 30px;
+	height: 100px;
 	gap: 30px;
-	flex-grow: 1;
 `;
 
 const Text = styled.h3`
-	// width: 90%;
-	max-width: 500px;
+	width: 500px;
 	font-size: clamp(1.5rem, 3vw, 1.728rem);
-	@media (max-width: 1200px) {
+	@media (max-width: 1400px) {
 		text-align: center;
 	}
 `;
