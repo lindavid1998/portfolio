@@ -32,6 +32,7 @@ const badges = {
 	jwt: 'json%20web%20tokens-20232A?style=for-the-badge&logo=json-web-tokens&logoColor=white',
 	styledcomponents:
 		'styledcomponents-20232A.svg?style=for-the-badge&logo=styled-components&logoColor=white',
+	figma: 'Figma-20232A?style=for-the-badge&logo=figma&logoColor=white',
 };
 
 const Stack = ({ stack }) => {
