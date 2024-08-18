@@ -19,7 +19,7 @@ const Container = styled.div`
 const Image = styled.img`
 	border-radius: 50%;
 	height: 320px;
-	width: 320px;
+	min-width: 320px;
 	object-fit: cover;
 	transform-origin: center;
 `;
@@ -28,7 +28,6 @@ const TextWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	// bottom: 30px;
 	height: 100px;
 	gap: 30px;
 `;
