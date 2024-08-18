@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.604fe3e8.css",
-    "main.js": "/portfolio/static/js/main.7f1563fe.js",
+    "main.js": "/portfolio/static/js/main.63634b26.js",
     "static/media/snowboard-demo.gif": "/portfolio/static/media/snowboard-demo.bf4f6f41903efc7b408a.gif",
     "static/media/motorcycle.jpg": "/portfolio/static/media/motorcycle.d1f655d1164a35f219b6.jpg",
     "static/media/allfields-demo.png": "/portfolio/static/media/allfields-demo.63b0e0307b2d4fc36d07.png",
@@ -17,7 +17,7 @@
     "static/media/me.jpg": "/portfolio/static/media/me.84da65e2a9e0895a81f4.jpg",
     "static/media/wip.jpg": "/portfolio/static/media/wip.121c49fbf2935a20d87f.jpg",
     "static/media/trading.jpg": "/portfolio/static/media/trading.1d1a598e62811d9a4abc.jpg",
-    "static/media/Resume_David_Lin.pdf": "/portfolio/static/media/Resume_David_Lin.9640caf7574c195ffd60.pdf",
+    "static/media/Resume_David_Lin.pdf": "/portfolio/static/media/Resume_David_Lin.e889247e5b58f4966ad6.pdf",
     "index.html": "/portfolio/index.html",
     "static/media/graduation-cap-solid.svg": "/portfolio/static/media/graduation-cap-solid.c7e1cacef9986b2850fdcd42fdbf576a.svg",
     "static/media/code-solid.svg": "/portfolio/static/media/code-solid.3c3282c5c6b706b280eaf6b868fea3ba.svg",
@@ -26,10 +26,10 @@
     "static/media/briefcase-solid.svg": "/portfolio/static/media/briefcase-solid.014aac83e55c8e5fb3cdb8adf37660c7.svg",
     "static/media/linkedin-logo.svg": "/portfolio/static/media/linkedin-logo.b043fc4581452f96d7c43569d939cc6a.svg",
     "main.604fe3e8.css.map": "/portfolio/static/css/main.604fe3e8.css.map",
-    "main.7f1563fe.js.map": "/portfolio/static/js/main.7f1563fe.js.map"
+    "main.63634b26.js.map": "/portfolio/static/js/main.63634b26.js.map"
   },
   "entrypoints": [
     "static/css/main.604fe3e8.css",
-    "static/js/main.7f1563fe.js"
+    "static/js/main.63634b26.js"
   ]
 }
