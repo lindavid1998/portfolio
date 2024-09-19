@@ -19,7 +19,7 @@
 		"name": "Where's Waldo",
 		"image": "waldo-demo.jpg",
 		"description": "A photo tagging app based on the game Where's Waldo. The challenging part about this project was implementing the logic for checking users answers.",
-		"stack": ["react", "firebase", "jest"],
+		"stack": ["react", "firebase", "jest",  "redux"],
 		"demo": "https://lindavid1998.github.io/wheres-waldo/",
 		"github": "https://github.com/lindavid1998/wheres-waldo"
 	},
