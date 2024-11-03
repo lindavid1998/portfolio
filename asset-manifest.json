@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.604fe3e8.css",
-    "main.js": "/portfolio/static/js/main.4376d0a9.js",
+    "main.js": "/portfolio/static/js/main.92c833c1.js",
     "static/media/snowboard-demo.gif": "/portfolio/static/media/snowboard-demo.bf4f6f41903efc7b408a.gif",
     "static/media/motorcycle.jpg": "/portfolio/static/media/motorcycle.d1f655d1164a35f219b6.jpg",
     "static/media/allfields-demo.png": "/portfolio/static/media/allfields-demo.63b0e0307b2d4fc36d07.png",
@@ -16,7 +16,6 @@
     "static/media/japan.JPG": "/portfolio/static/media/japan.1d932270ec380552c1cd.JPG",
     "static/media/drone.jpg": "/portfolio/static/media/drone.a4a4051bfda0bc608920.jpg",
     "static/media/wip.jpg": "/portfolio/static/media/wip.121c49fbf2935a20d87f.jpg",
-    "static/media/Resume_David_Lin.pdf": "/portfolio/static/media/Resume_David_Lin.591934f75b2786bc0890.pdf",
     "static/media/me.jpg": "/portfolio/static/media/me.aecab798c2e2633aeb31.jpg",
     "index.html": "/portfolio/index.html",
     "static/media/graduation-cap-solid.svg": "/portfolio/static/media/graduation-cap-solid.c7e1cacef9986b2850fdcd42fdbf576a.svg",
@@ -26,10 +25,10 @@
     "static/media/briefcase-solid.svg": "/portfolio/static/media/briefcase-solid.014aac83e55c8e5fb3cdb8adf37660c7.svg",
     "static/media/linkedin-logo.svg": "/portfolio/static/media/linkedin-logo.b043fc4581452f96d7c43569d939cc6a.svg",
     "main.604fe3e8.css.map": "/portfolio/static/css/main.604fe3e8.css.map",
-    "main.4376d0a9.js.map": "/portfolio/static/js/main.4376d0a9.js.map"
+    "main.92c833c1.js.map": "/portfolio/static/js/main.92c833c1.js.map"
   },
   "entrypoints": [
     "static/css/main.604fe3e8.css",
-    "static/js/main.4376d0a9.js"
+    "static/js/main.92c833c1.js"
   ]
 }
