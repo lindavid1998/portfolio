@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { ReactComponent as DownloadIcon } from '../assets/download-solid.svg';
-import ResumePdf from '../assets/Resume_David_Lin.pdf';
 
 const Nav = styled.nav`
 	display: flex;
@@ -57,10 +56,6 @@ const Item = styled.a`
 	}
 `;
 
-const Icon = styled(DownloadIcon)`
-	height: 1.2rem;
-`;
-
 const Navbar = () => {
 	return (
 		<Nav>
@@ -69,17 +64,21 @@ const Navbar = () => {
 				<Menu>
 					<Item href='#projects'>Projects</Item>
 					<Item href='#about'>About Me</Item>
-					<Item href={ResumePdf} download='David_Lin_Resume.pdf'>
+					<Item
+						href='https://copper-bobbye-45.tiiny.site'
+						download='David_Lin_Resume.pdf'
+					>
 						<div>Resume</div>
-						<Icon fill='white'></Icon>
 					</Item>
 					<Item href='#hobbies'>Hobbies</Item>
 					<Item href='#contact'>Contact</Item>
 				</Menu>
 				<MiniMenu>
-					<Item href={ResumePdf} download='David_Lin_Resume.pdf'>
+					<Item
+						href='https://copper-bobbye-45.tiiny.site'
+						download='David_Lin_Resume.pdf'
+					>
 						<div>Resume</div>
-						<Icon fill='white'></Icon>
 					</Item>
 				</MiniMenu>
 			</Wrapper>
