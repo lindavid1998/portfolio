@@ -1,7 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import githubLogo from '../../assets/github-mark-white.png';
-import linkedinLogo from '../../assets/linkedin-logo.svg';
 
 const Container = styled.div`
 	display: flex;
@@ -11,16 +9,6 @@ const Container = styled.div`
 	width: 80%;
 `;
 
-const Content = styled.div`
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	gap: 20px;
-	width: 80%;
-	margin: 0 auto;
-`;
-
 const Text = styled.p`
 	display: flex;
 	align-items: center;
@@ -28,32 +16,11 @@ const Text = styled.p`
 	text-align: center;
 `;
 
-const Img = styled.img`
-	height: 40px;
-	width: auto;
-	cursor: pointer;
-`;
-
-const Logos = styled.div`
-	display: flex;
-	gap: 20px;
-`;
-
 const Contact = () => {
 	return (
 		<Container id='contact'>
 			<h1>Contact</h1>
-			<Content>
-				<Text>Visit my links below or email me at lindavid1998@gmail.com!</Text>
-				<Logos>
-					<a href='https://www.linkedin.com/in/lindavid1998/'>
-						<Img src={linkedinLogo} />
-					</a>
-					<a href='https://github.com/lindavid1998'>
-						<Img src={githubLogo} />
-					</a>
-				</Logos>
-			</Content>
+			<Text>Email: lindavid1998@gmail.com</Text>
 		</Container>
 	);
 };

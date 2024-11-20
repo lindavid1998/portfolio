@@ -1,12 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
-import { ReactComponent as DownloadIcon } from '../assets/download-solid.svg';
+import githubLogo from '../assets/github-mark-white.png';
+import linkedinLogo from '../assets/linkedin-logo.svg';
 
 const Nav = styled.nav`
 	display: flex;
 	justify-content: center;
-	width: 90%;
+	width: 100vw;
 	padding: 10px 0;
+	position: sticky; 
+	top: 0; 
+	background-color: var(--background-color);
+	z-index: 999;
 `;
 
 const Wrapper = styled.div`
@@ -14,10 +19,7 @@ const Wrapper = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	width: 80%;
-	@media (max-width: 850px) {
-		flex-direction: column;
-		gap: 15px;
-	}
+	max-width: 1000px;
 `;
 
 const Name = styled.h2`
@@ -29,8 +31,8 @@ const Name = styled.h2`
 
 const Menu = styled.div`
 	display: flex;
-	gap: 35px;
-	@media (max-width: 850px) {
+	gap: 32px;
+	@media (max-width: 900px) {
 		display: none;
 	}
 `;
@@ -38,7 +40,7 @@ const Menu = styled.div`
 const MiniMenu = styled.div`
 	display: none;
 	gap: 35px;
-	@media (max-width: 850px) {
+	@media (max-width: 900px) {
 		display: flex;
 	}
 `;
@@ -56,6 +58,28 @@ const Item = styled.a`
 	}
 `;
 
+const Img = styled.img`
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+`;
+
+const Links = styled.div`
+	display: flex;
+	gap: 16px;
+	align-items: center;
+`;
+
+const A = styled.a`
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	transition: transform 0.3s ease-in-out;
+	&:hover {
+		transform: translate(0, -5px);
+	}
+`;
+
 const Navbar = () => {
 	return (
 		<Nav>
@@ -64,22 +88,27 @@ const Navbar = () => {
 				<Menu>
 					<Item href='#projects'>Projects</Item>
 					<Item href='#about'>About Me</Item>
-					<Item
-						href='https://copper-bobbye-45.tiiny.site'
-						download='David_Lin_Resume.pdf'
-					>
-						<div>Resume</div>
-					</Item>
 					<Item href='#hobbies'>Hobbies</Item>
 					<Item href='#contact'>Contact</Item>
+					<Links>
+						<A href='https://www.linkedin.com/in/lindavid1998/'>
+							<Img src={linkedinLogo} />
+						</A>
+						<A href='https://github.com/lindavid1998'>
+							<Img src={githubLogo} />
+						</A>
+					</Links>
 				</Menu>
+
 				<MiniMenu>
-					<Item
-						href='https://copper-bobbye-45.tiiny.site'
-						download='David_Lin_Resume.pdf'
-					>
-						<div>Resume</div>
-					</Item>
+					<Links>
+						<A href='https://www.linkedin.com/in/lindavid1998/'>
+							<Img src={linkedinLogo} />
+						</A>
+						<A href='https://github.com/lindavid1998'>
+							<Img src={githubLogo} />
+						</A>
+					</Links>
 				</MiniMenu>
 			</Wrapper>
 		</Nav>
