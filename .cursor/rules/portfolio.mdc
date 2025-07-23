@@ -18,8 +18,11 @@ Data should be hardcoded as there is no backend. Please create a separate data f
 
 My skills that I want to higlight: TypeScript, Python, SQL, React, Node.js, Next.js, PostgreSQL
 
+When defining React components, use functional syntax
+
 Tech Stack:
 - React
 - TypeScript
 - Tailwind CSS
 - Vite
+- Shadcn
