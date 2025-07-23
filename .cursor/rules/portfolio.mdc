@@ -12,6 +12,7 @@ Project structure
 
 Styling theme
 - Use a dark theme
+- Do not add background color to any components
 
 Data should be hardcoded as there is no backend. Please create a separate data file. This should store project and work experience that the UI components consume.
 
