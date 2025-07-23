@@ -1,29 +1,22 @@
 import Section from "./Section";
+import SkillBadge from "./SkillBadge";
 
-type Skill = { name: string };
-
-const skills: Skill[] = [
-  { name: "TypeScript" },
-  { name: "Python" },
-  { name: "SQL" },
-  { name: "React" },
-  { name: "Node.js" },
-  { name: "Next.js" },
-  { name: "PostgreSQL" },
-];
+let skillToIcon = new Map<string, string>([
+  ["TypeScript", "ts"],
+  ["React", "react"],
+  ["Python", "python"],
+  ["Node.js", "nodejs"],
+  ["Next.js", "nextjs"],
+  ["PostgreSQL", "postgresql"],
+]);
 
 function Skills() {
   return (
     <Section>
       <h2 className="text-2xl font-bold mb-6">Skills</h2>
-      <div className="flex flex-wrap gap-4 justify-center">
-        {skills.map((skill) => (
-          <span
-            key={skill.name}
-            className="px-4 py-2 rounded-full bg-accent text-accent-foreground font-semibold text-lg shadow transition-transform duration-200 hover:scale-125 hover:z-10 cursor-pointer"
-          >
-            {skill.name}
-          </span>
+      <div className="flex flex-wrap gap-6 justify-center">
+        {Array.from(skillToIcon).map(([key, value]) => (
+          <SkillBadge key={key} name={key} imgUrl={value} />
         ))}
       </div>
     </Section>
