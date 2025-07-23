@@ -8,10 +8,10 @@ const Hero: React.FC = () => {
       </h1>
       <p className="text-lg md:text-2xl text-gray-300 max-w-2xl text-center mb-6">
         I'm a passionate{" "}
-        <span className="text-blue-400 font-semibold">Software Engineer</span>{" "}
+        <span className="text-accent font-semibold">Software Engineer</span>{" "}
         specializing in building fast, modern web applications with{" "}
-        <span className="text-blue-400 font-semibold">TypeScript</span>,{" "}
-        <span className="text-blue-400 font-semibold">React</span>, and more.
+        <span className="text-accent font-semibold">TypeScript</span>,{" "}
+        <span className="text-accent font-semibold">React</span>, and more.
       </p>
     </section>
   );
