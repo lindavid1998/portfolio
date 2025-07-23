@@ -1,6 +1,6 @@
 import { type Skill } from "./types";
 
-interface WorkExperience {
+export interface WorkExperience {
    company: string;
    description: string;
    stack: Skill[];
