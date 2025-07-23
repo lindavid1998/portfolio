@@ -11,7 +11,7 @@ function Picture() {
 
 function Text() {
   return (
-    <p className="text-lg md:text-2xl text-gray-300 max-w-2xl text-center mb-6">
+    <p className="text-lg md:text-2xl text-gray-300 max-w-2xl text-center">
       I'm a passionate{" "}
       <span className="text-accent font-semibold">Software Engineer</span>{" "}
       specializing in building fast, modern web applications with{" "}
