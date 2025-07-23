@@ -1,7 +1,8 @@
 import Section from "./Section";
 import SkillBadge from "./SkillBadge";
+import { type Skill } from "@/types";
 
-let skillToIcon = new Map<string, string>([
+let skillToIcon = new Map<Skill, string>([
   ["TypeScript", "ts"],
   ["React", "react"],
   ["Python", "python"],
