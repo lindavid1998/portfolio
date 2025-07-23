@@ -13,8 +13,7 @@ let skillToIcon = new Map<Skill, string>([
 
 function Skills() {
   return (
-    <Section>
-      <h2 className="text-2xl font-bold mb-6">Skills</h2>
+    <Section title="Skills">
       <div className="flex flex-wrap gap-6 justify-center">
         {Array.from(skillToIcon).map(([key, value]) => (
           <SkillBadge key={key} name={key} imgUrl={value} />
