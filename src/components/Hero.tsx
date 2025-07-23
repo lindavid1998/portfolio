@@ -25,7 +25,7 @@ function Text() {
 function Hero() {
   return (
     <section className="flex flex-col items-center justify-cente gap-4">
-      <h1 className="text-4xl md:text-6xl font-bold text-center">
+      <h1 className="text-center">
         Hi, I'm David Lin
       </h1>
       <Picture />
