@@ -9,6 +9,8 @@ let skillToIcon = new Map<Skill, string>([
   ["Node.js", "nodejs"],
   ["Next.js", "nextjs"],
   ["PostgreSQL", "postgresql"],
+  ["Jest", "jest"],
+  ["Tailwind", 'tailwind']
 ]);
 
 function Skills() {

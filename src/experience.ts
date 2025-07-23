@@ -1,20 +1,38 @@
 import { type Skill } from "./types";
 
 export interface WorkExperience {
-   company: string;
-   description: string;
-   stack: Skill[];
+  company: string;
+  title: string;
+  description: string[];
+  stack: Skill[];
+  start: string;
+  end?: string;
+  linkedin: string;
 }
 
 export const workExperiences: WorkExperience[] = [
-   {
-      company: 'Nummi',
-      description: 'Full stack engineering',
-      stack: ['TypeScript', 'Next.js', 'PostgreSQL']
-   },
-   {
-      company: 'Illumina',
-      description: 'Data scripting',
-      stack: ['Python']
-   }
-]
+  {
+    company: "Nummi AI",
+    title: 'Full Stack Software Engineer Intern',
+    description: [
+      `Build AI chatbot features integrated with LLM APIs using Next.js, TypeScript, and PostgreSQL in a 3-engineer team for a Vercel-hosted platform with 2,000 monthly active users`,
+      `Implemented a customizable persona system for AI assistants, allowing users to tailor chatbot behavior and tone`,
+      `Created a profile management feature allowing seamless switching between personal and company/brand identities, each with independent social media connections (LinkedIn, Twitter)`,
+      `Led the creation of the startup’s first automated testing infrastructure using Jest, implementing unit tests for the API and UI layers`,
+    ],
+    stack: ["TypeScript", "Next.js", "PostgreSQL"],
+    start: "May 2025",
+    linkedin: "https://www.linkedin.com/company/getnummi/",
+  },
+  {
+    company: "Illumina",
+    title: 'Manufacturing Engineer',
+    description: [
+      `Engineered a Python script to automate daily equipment log processing and analysis, cutting manual effort by 13%`,
+    ],
+    stack: ["Python"],
+    start: "Jun 2021",
+    end: "Sep 2024",
+    linkedin: "https://www.linkedin.com/company/illumina/"
+  },
+];
