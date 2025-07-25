@@ -1,90 +1,180 @@
 * {
-	box-sizing: border-box;
-	scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 @font-face {
-    font-family: 'Wotfard';
-    src: url('./font/wotfard-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Wotfard";
+  src: url("./font/wotfard-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-	margin: 0;
-	font-family: 'Wotfard', sans-serif;
-	min-width: 100vw;
-	min-height: 100vh;
-	color: white;
-	background-color: var(--background-color);
+  margin: 0;
+  font-family: "Wotfard", sans-serif;
+  min-width: 100vw;
+  min-height: 100vh;
+  color: white;
+  background-color: var(--background-color);
 }
 
 :root {
-	--background-color: #151515;
-	--dark-gray-background: #202020;
-	--dark-blue-bg-color: #0C1821;
-	/* --accent-color: #39ace7; */
-	--accent-color: #1846fb;
-	--light-color: #dafffb;
-	--gray-color: #d9d9d9;
-	--max-width: 1200px;
+  --background-color: #151515;
+  --dark-gray-background: #202020;
+  --dark-blue-bg-color: #0c1821;
+  /* --accent-color: #39ace7; */
+  --accent-color: #1846fb;
+  --light-color: #dafffb;
+  --gray-color: #d9d9d9;
+  --max-width: 1200px;
 }
 
 button {
-	outline: none;
-	border: none;
+  outline: none;
+  border: none;
 }
 
 a,
 a:visited,
 a:hover,
 a:active {
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .vertical-timeline-element-content {
-	box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
-		0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
 }
 
 h1 {
-	font-size: 2.488rem;
+  font-size: 2.488rem;
 }
 
 h2 {
-	font-size: 2.074rem;
+  font-size: 2.074rem;
 }
 
 h3 {
-	font-size: 1.728rem;
+  font-size: 1.728rem;
 }
 
 h4 {
-	font-size: 1.44rem;
+  font-size: 1.44rem;
 }
 
 h5 {
-	font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-h1, h2 {
-	margin: 1rem;
+h1,
+h2 {
+  margin: 1rem;
 }
 
-h3, h4, h5 {
-	margin: 0;
+h3,
+h4,
+h5 {
+  margin: 0;
 }
 
-h1, h2, h3, h4, h5 {
-	letter-spacing: -0.022em;
-	line-height: 1.15;
-	font-weight: 700;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  letter-spacing: -0.022em;
+  line-height: 1.15;
+  font-weight: 700;
 }
 
 p {
-	line-height: 1.5em;
-	margin: 0;
-	color: #d2d2d2;
-	font-size: 18px;
+  line-height: 1.5em;
+  margin: 0;
+  color: #d2d2d2;
+  font-size: 18px;
+}
+
+/* Glow Gradient Effect - Reusable Class */
+.glow-gradient {
+  background: linear-gradient(
+    90deg,
+    var(--accent-color) 0%,
+    #ff6b6b 50%,
+    var(--accent-color) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 4s ease-in-out infinite;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Glow Gradient Underline - For text elements */
+.glow-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.glow-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    var(--accent-color) 0%,
+    #ff6b6b 50%,
+    var(--accent-color) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 4s ease-in-out infinite;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3);
+  z-index: -1;
+}
+
+/* Glow Gradient Side Border */
+.glow-side-border {
+  position: relative;
+  padding-left: 16px;
+}
+
+.glow-side-border::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    var(--accent-color) 0%,
+    #ff6b6b 50%,
+    var(--accent-color) 100%
+  );
+  background-size: 100% 200%;
+  animation: shimmer-vertical 4s ease-in-out infinite;
+  border-radius: 2px;
+  box-shadow: 0 0 8px rgba(255, 107, 107, 0.3);
+}
+
+@keyframes shimmer-vertical {
+  0% {
+    background-position: 0 -200%;
+  }
+  100% {
+    background-position: 0 200%;
+  }
 }

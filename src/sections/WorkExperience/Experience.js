@@ -33,38 +33,14 @@ const Description = styled.div`
 const Buttons = styled.div`
   display: flex;
   gap: 20px;
-  margin-top: auto;
+  // margin-top: auto;
   min-height: 80px;
-  align-items: flex-end;
+  // align-items: flex-end;
 `;
 
-const Background = styled.div`
-  width: 120px;
-  height: 8px;
-  background: linear-gradient(
-    90deg,
-    var(--accent-color) 0%,
-    #ff6b6b 50%,
-    var(--accent-color) 100%
-  );
-  background-size: 200% 100%;
-  animation: shimmer 2s ease-in-out infinite;
-  transform: rotate(-0.01turn);
-  position: relative;
-  top: -1rem;
-  left: -0.5rem;
-  z-index: -99;
-  border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3);
-
-  @keyframes shimmer {
-    0% {
-      background-position: -200% 0;
-    }
-    100% {
-      background-position: 200% 0;
-    }
-  }
+const Subheader = styled.div`
+  display: flex;
+  justify-content: space-between;
 `;
 
 export function Experience({
@@ -79,12 +55,13 @@ export function Experience({
   return (
     <Container>
       <Info>
-        <h3>{company}</h3>
-        <Background className="bg"></Background>
-        <div>{title}</div>
-        <p>
-          {start}-{end ? end : "Present"}
-        </p>
+        <h3 className="glow-underline">{title}</h3>
+        <Subheader>
+          <p>{company}</p>
+          <p>
+            {start}-{end ? end : "Present"}
+          </p>
+        </Subheader>
 
         <Description>
           {description.map((bullet, i) => (
@@ -96,7 +73,7 @@ export function Experience({
 
         <Buttons>
           <a href={linkedin}>
-            <Button color="secondary" text="LinkedIn" />
+            <Button color="primary" text="LinkedIn" />
           </a>
         </Buttons>
       </Info>

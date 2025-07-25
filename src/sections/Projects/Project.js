@@ -49,7 +49,7 @@ const Project = ({ name, image, description, stack, demo, github }) => {
 		<Container>
 			<Image src={require(`../../assets/${image}`)}></Image>
 			<Info>
-				<h3>{name}</h3>
+				<h3 className="glow-underline">{name}</h3>
 				<p>{description}</p>
 				<Stack stack={stack} />
 				{demo && github && (

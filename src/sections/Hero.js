@@ -54,7 +54,7 @@ const Hero = () => {
 				<img src={meImg} style={{ width: '100%', height: '100%' }} />
 			</Image>
 			<Intro>
-				<Text>
+				<Text className='glow-gradient'>
 					Hi! I'm a full stack web developer with TypeScript/React/PostgreSQL/Node.js
 					experience.
 				</Text>
