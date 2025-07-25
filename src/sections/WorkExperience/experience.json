@@ -8,7 +8,7 @@
       "Created a profile management feature allowing seamless switching between personal and company/brand identities, each with independent social media connections (LinkedIn, Twitter)",
       "Led the creation of the startup’s first automated testing infrastructure using Jest, implementing unit tests for the API and UI layers"
     ],
-    "stack": ["TypeScript", "Next.js", "PostgreSQL"],
+    "stack": ["typescript", "nextjs", "postgres"],
     "start": "May 2025",
     "linkedin": "https://www.linkedin.com/company/getnummi/"
   },
@@ -18,7 +18,7 @@
     "description": [
       "Engineered a Python script to automate daily equipment log processing and analysis, cutting manual effort by 13%"
     ],
-    "stack": ["Python"],
+    "stack": ["python"],
     "start": "Jun 2021",
     "end": "Sep 2024",
     "linkedin": "https://www.linkedin.com/company/illumina/"
