@@ -8,6 +8,7 @@ const Container = styled.div`
 	width: 60%;
 	max-width: 950px;
 	margin: 0 auto;
+	align-items: center;
 
 	@media (max-width: 1400px) {
 		width: 80%;
