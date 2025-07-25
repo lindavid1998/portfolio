@@ -6,6 +6,7 @@ import Projects from './sections/Projects';
 import About from './sections/About';
 import Hobbies from './sections/Hobbies';
 import Contact from './sections/Contact';
+import WorkExperience from './sections/WorkExperience'
 
 const Container = styled.div`
 	display: flex;
@@ -20,6 +21,7 @@ const App = () => {
 		<Container>
 			<Navbar />
 			<Hero />
+			<WorkExperience />
 			<Projects />
 			<About />
 			<Hobbies />
