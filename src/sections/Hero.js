@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import meImg from '../assets/me.jpg';
+import meImg from '../assets/me.jpeg';
 
 const Container = styled.div`
 	display: flex;
@@ -54,20 +54,12 @@ const Hero = () => {
 			</Image>
 			<Intro>
 				<Text>
-					Hi! I'm a full stack web developer with React/PostgreSQL/Node.js
+					Hi! I'm a full stack web developer with TypeScript/React/PostgreSQL/Node.js
 					experience.
 				</Text>
 				<p>
-					I come from an operations background with 3+ YoE as a process engineer
-					where I sustained and scaled up high volume medical device
-					manufacturing lines. Through that experience, I’ve developed a strong
-					foundation in operational efficiency, problem-solving under
-					high-stakes conditions, and implementing scalable solutions with
-					strategic thinking.{' '}
-					<strong style={{ color: 'white' }}>
-						Now, I apply those same principles to software engineering—building
-						efficient, reliable, and scalable applications.
-					</strong>
+					I'm passionate about building software with high impact.
+					Interests include: health tech, sports, travel, green energy, and productivity.
 				</p>
 			</Intro>
 		</Container>
