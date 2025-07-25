@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.257f3487.css",
-    "main.js": "/portfolio/static/js/main.c9699ceb.js",
+    "main.css": "/portfolio/static/css/main.b7bab529.css",
+    "main.js": "/portfolio/static/js/main.f77cf604.js",
     "static/media/snowboard-demo.gif": "/portfolio/static/media/snowboard-demo.bf4f6f41903efc7b408a.gif",
     "static/media/motorcycle.jpg": "/portfolio/static/media/motorcycle.d1f655d1164a35f219b6.jpg",
     "static/media/allfields-demo.png": "/portfolio/static/media/allfields-demo.63b0e0307b2d4fc36d07.png",
@@ -9,6 +9,7 @@
     "static/media/shredders-demo.png": "/portfolio/static/media/shredders-demo.0b41ed1f44addf000d8a.png",
     "static/media/formulaOne.jpg": "/portfolio/static/media/formulaOne.42fb5e8cf91b86bf31ae.jpg",
     "static/media/snowboard.jpg": "/portfolio/static/media/snowboard.e899a7a69b0cb5f79116.jpg",
+    "static/media/me.jpeg": "/portfolio/static/media/me.4fe337530da1ff594d20.jpeg",
     "static/media/waldo-demo.jpg": "/portfolio/static/media/waldo-demo.c24c27dd4ec8b4109ac7.jpg",
     "static/media/soccer.jpeg": "/portfolio/static/media/soccer.c9fc6c8275ca09e45277.jpeg",
     "static/media/warehouse.jpg": "/portfolio/static/media/warehouse.0e28e4a2bb13e1d15242.jpg",
@@ -17,7 +18,6 @@
     "static/media/drone.jpg": "/portfolio/static/media/drone.a4a4051bfda0bc608920.jpg",
     "static/media/wip.jpg": "/portfolio/static/media/wip.121c49fbf2935a20d87f.jpg",
     "static/media/wotfard-regular-webfont.ttf": "/portfolio/static/media/wotfard-regular-webfont.b7585f8e119628c4dfb2.ttf",
-    "static/media/me.jpg": "/portfolio/static/media/me.aecab798c2e2633aeb31.jpg",
     "index.html": "/portfolio/index.html",
     "static/media/graduation-cap-solid.svg": "/portfolio/static/media/graduation-cap-solid.c7e1cacef9986b2850fdcd42fdbf576a.svg",
     "static/media/code-solid.svg": "/portfolio/static/media/code-solid.3c3282c5c6b706b280eaf6b868fea3ba.svg",
@@ -25,11 +25,11 @@
     "static/media/child-solid.svg": "/portfolio/static/media/child-solid.e94f79726117550bd21fe79f12e6989c.svg",
     "static/media/briefcase-solid.svg": "/portfolio/static/media/briefcase-solid.014aac83e55c8e5fb3cdb8adf37660c7.svg",
     "static/media/linkedin-logo.svg": "/portfolio/static/media/linkedin-logo.b043fc4581452f96d7c43569d939cc6a.svg",
-    "main.257f3487.css.map": "/portfolio/static/css/main.257f3487.css.map",
-    "main.c9699ceb.js.map": "/portfolio/static/js/main.c9699ceb.js.map"
+    "main.b7bab529.css.map": "/portfolio/static/css/main.b7bab529.css.map",
+    "main.f77cf604.js.map": "/portfolio/static/js/main.f77cf604.js.map"
   },
   "entrypoints": [
-    "static/css/main.257f3487.css",
-    "static/js/main.c9699ceb.js"
+    "static/css/main.b7bab529.css",
+    "static/js/main.f77cf604.js"
   ]
 }
