@@ -86,6 +86,7 @@ const Navbar = () => {
 			<Wrapper>
 				<Name>David Lin</Name>
 				<Menu>
+					<Item href='#work-experience'>Work Experience</Item>
 					<Item href='#projects'>Projects</Item>
 					<Item href='#about'>About Me</Item>
 					<Item href='#hobbies'>Hobbies</Item>
