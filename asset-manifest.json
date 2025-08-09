@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b7bab529.css",
-    "main.js": "/portfolio/static/js/main.f77cf604.js",
+    "main.css": "/portfolio/static/css/main.12b80b66.css",
+    "main.js": "/portfolio/static/js/main.cd615d1a.js",
     "static/media/snowboard-demo.gif": "/portfolio/static/media/snowboard-demo.bf4f6f41903efc7b408a.gif",
     "static/media/motorcycle.jpg": "/portfolio/static/media/motorcycle.d1f655d1164a35f219b6.jpg",
     "static/media/allfields-demo.png": "/portfolio/static/media/allfields-demo.63b0e0307b2d4fc36d07.png",
@@ -25,11 +25,11 @@
     "static/media/child-solid.svg": "/portfolio/static/media/child-solid.e94f79726117550bd21fe79f12e6989c.svg",
     "static/media/briefcase-solid.svg": "/portfolio/static/media/briefcase-solid.014aac83e55c8e5fb3cdb8adf37660c7.svg",
     "static/media/linkedin-logo.svg": "/portfolio/static/media/linkedin-logo.b043fc4581452f96d7c43569d939cc6a.svg",
-    "main.b7bab529.css.map": "/portfolio/static/css/main.b7bab529.css.map",
-    "main.f77cf604.js.map": "/portfolio/static/js/main.f77cf604.js.map"
+    "main.12b80b66.css.map": "/portfolio/static/css/main.12b80b66.css.map",
+    "main.cd615d1a.js.map": "/portfolio/static/js/main.cd615d1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7bab529.css",
-    "static/js/main.f77cf604.js"
+    "static/css/main.12b80b66.css",
+    "static/js/main.cd615d1a.js"
   ]
 }
