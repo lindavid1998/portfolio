@@ -1,0 +1,24 @@
+@keyframes spin-flutter {
+  0% {
+    transform: rotate(0deg) scale(1) skewX(0deg);
+  }
+  20% {
+    transform: rotate(30deg) scale(1.05) skewX(-5deg);
+  }
+  40% {
+    transform: rotate(-20deg) scale(1.1) skewX(5deg);
+  }
+  60% {
+    transform: rotate(10deg) scale(1.08) skewX(-3deg);
+  }
+  80% {
+    transform: rotate(-5deg) scale(1.04) skewX(2deg);
+  }
+  100% {
+    transform: rotate(0deg) scale(1) skewX(0deg);
+  }
+}
+
+.group-hover\:animate-spin-flutter:hover {
+  animation: spin-flutter 0.7s cubic-bezier(0.4, 0.2, 0.2, 1.1);
+}
